@@ -17,6 +17,7 @@
     --gray-500: #16181D;
     --gray-600: #0D0E11;
 
+
     --font-family: "Montserrat", sans-serif;
     --title-lg: 800 56px/120% var(--font-family);
     --title-md: 700 24px/120% var(--font-family);
@@ -24,4 +25,18 @@
     --subtitle: 400 20px/120% var(--font-family);
     --mtext-md: 400 16px/140% var(--font-family);
     --mtext-sm: 400 14px/140% var(--font-family);
+}
+
+body {
+    width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    font: var(--mtext-md);
+    color: var(--gray-200);
 }

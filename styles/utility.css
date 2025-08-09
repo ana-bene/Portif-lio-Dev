@@ -1,0 +1,26 @@
+.title-lg {
+  font: var(--title-lg);
+}
+
+.subtitle {
+    font: var(--subtitle);
+}
+
+.red {
+    color: var(--red);
+}
+
+.mtext-sm {
+  font: var(--mtext-sm);
+}
+
+.mtext-md {
+  font: var(--mtext-md);
+  color: var(--gray-200);
+}
+
+.flex {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+}

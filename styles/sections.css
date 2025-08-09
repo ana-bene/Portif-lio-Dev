@@ -1,0 +1,44 @@
+#intro {
+ background-image: url(../assets/background-1.png);
+ background-size: cover;
+ height: 750px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;  
+}
+
+.intro-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    
+    color: var(--gray-100);
+}
+
+.highlight {
+    color: var(--red);
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 80px;
+}
+
+nav > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border-radius: 32px;
+    background-color: var(--gray-400);
+    padding: 8px 16px;
+}
+
+.arrow {
+    margin-top: 94px;
+}
