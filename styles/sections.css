@@ -2,11 +2,11 @@
  background-image: url(../assets/background-1.png);
  background-size: cover;
  height: 750px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center;  
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ justify-content: center;
+ text-align: center;  
 }
 
 .intro-content {
@@ -14,7 +14,6 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    
     color: var(--gray-100);
 }
 
@@ -41,4 +40,62 @@ nav > a {
 
 .arrow {
     margin-top: 94px;
+}
+
+#principal {
+    background-color: var(--gray-500);
+    height: 917px;
+
+    a:hover {
+        border: solid 1px;
+        border-color: var(--gray-100);
+    }
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 56px;
+    gap: 20px;
+}
+
+.grid {
+    max-width: 1040px;
+    height: 584px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+    align-content: center;
+}
+
+.card {
+    width: 330px;
+    height: 280px;
+    background-color: var(--gray-400);
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    
+    img {
+        width: 306px;
+        height: 156px;
+        border-radius: 10px;
+    }
+}
+
+.texto {
+    display: flex;
+    flex-direction: column;
+    width: 306px;
+    height: 75px;
+    gap: 8px;
+    padding-top: 20px;
 }

@@ -1,3 +1,13 @@
+.title-sm {
+  font: var(--title-sm);
+  color: var(--gray-100);
+}
+
+.title-md {
+  font: var(--title-md);
+  color: var(--gray-100);
+}
+
 .title-lg {
   font: var(--title-lg);
 }
@@ -12,6 +22,7 @@
 
 .mtext-sm {
   font: var(--mtext-sm);
+  color: var(--gray-200);
 }
 
 .mtext-md {
