@@ -16,6 +16,10 @@
     font: var(--subtitle);
 }
 
+.purple {
+  color: var(--purple);
+}
+
 .red {
     color: var(--red);
 }

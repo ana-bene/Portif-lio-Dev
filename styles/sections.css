@@ -122,3 +122,21 @@ nav > a {
     border-radius: 10px;
     padding: 20px;
 }
+
+#final {
+    background-image: url(../assets/background-2.png);
+    background-size: cover;
+    height: 787px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+}
+
+.last {
+    width: 400px;
+    height: 68px;
+    background-color: var(--gray-400);
+    border-radius: 10px;
+}
